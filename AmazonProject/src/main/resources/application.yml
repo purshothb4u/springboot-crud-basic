@@ -1,0 +1,23 @@
+server:
+   port: 9001
+   
+management:
+   endpoints:
+    web:
+      exposure:
+       include: "*"
+       exclude: "env,beans"
+
+spring:
+  application:
+    name: EmployeeController
+  datasource:
+    driver-class-name:
+    url: jdbc:mysql://localhost:3306/amazonproject
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
