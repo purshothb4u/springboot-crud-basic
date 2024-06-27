@@ -16,7 +16,6 @@ import com.amazon.amazonproject.entity.Employee;
 import com.amazon.amazonproject.service.EmployeeService;
 
 
-//updated.....................................
 @RestController
 @RequestMapping("/amazonEmployee")
 public class EmployeeController {
