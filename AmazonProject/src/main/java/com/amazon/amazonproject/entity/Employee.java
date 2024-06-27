@@ -8,7 +8,6 @@ import jakarta.persistence.Table;
 
 
 @Entity
-
 @Table(name = "amazonemployee")
 public class Employee {
 	@Id
