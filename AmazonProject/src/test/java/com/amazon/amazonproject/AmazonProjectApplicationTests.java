@@ -9,5 +9,4 @@ class AmazonProjectApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
