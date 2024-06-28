@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class AmazonProjectApplicationTests {
-
+//test updated from github
 	@Test
 	void contextLoads() {
 	}
